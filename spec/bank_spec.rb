@@ -13,7 +13,7 @@ describe Bank do
 
   describe "#deposit" do
 
-    it "can be increased by depositing money" do
+    it "can update balance by increasing balance amount" do
       amount = 999
       expect(account_balance).to receive(:update_balance).with(amount)
       bank.deposit(amount)
@@ -22,7 +22,7 @@ describe Bank do
   end
 
   describe "#withdraw" do
-    it "can be decreased by withdrawing money" do
+    it "can update balance by decreasing balance amount" do
       amount = 999
       expect(account_balance).to receive(:update_balance).with(-amount)
       bank.withdraw(amount)
