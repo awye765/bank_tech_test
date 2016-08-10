@@ -1,8 +1,8 @@
 class Account
 
-  def initialize(account_balance = Balance.new, account_statement = TransactionHistory.new)
+  def initialize(account_balance = Balance.new, transaction_history = TransactionHistory.new)
     @account_balance = account_balance
-    @account_statement = account_statement
+    @transaction_history = transaction_history
   end
 
   def show_balance
@@ -18,7 +18,7 @@ class Account
   end
 
   def print_statement
-    @account_statement.history
+    @transaction_history.history
   end
 
 end
