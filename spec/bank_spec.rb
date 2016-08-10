@@ -9,10 +9,6 @@ describe Bank do
       expect(bank).to respond_to(:show_balance)
     end
 
-    it "has a default starting balance of zero" do
-      expect(bank.show_balance).to eq 0
-    end
-
   end
 
   describe "#deposit" do
