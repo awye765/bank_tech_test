@@ -1,8 +1,8 @@
-
+[![Build Status](https://travis-ci.org/awye765/bank_tech_test.svg?branch=master)](https://travis-ci.org/awye765/bank_tech_test) [![Coverage Status](https://coveralls.io/repos/github/awye765/bank_tech_test/badge.svg?branch=master)](https://coveralls.io/github/awye765/bank_tech_test?branch=master)
 
 # Bank tech test
 
-Practise tech test - a very simple app to simulate a basic bank account system.
+Practice tech test - a very simple app to simulate a basic bank account system.
 
 ## Outline
 
