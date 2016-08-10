@@ -1,4 +1,4 @@
-class Account_Statement
+class TransactionHistory
 
   attr_reader :history
 
@@ -10,8 +10,8 @@ class Account_Statement
     @history
   end
 
-  # def update_history
-  #   # @history add some stuf
-  # end
+  def update_history
+
+  end
 
 end

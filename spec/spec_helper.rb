@@ -3,10 +3,10 @@ require 'simplecov'
 Coveralls.wear!
 
 require 'rspec'
-require './lib/bank'
-require './lib/account_balance'
+require './lib/account'
+require './lib/balance'
 require './lib/transaction'
-require './lib/account_statement'
+require './lib/transaction_history'
 
 
 

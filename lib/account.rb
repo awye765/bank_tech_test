@@ -1,6 +1,6 @@
-class Bank
+class Account
 
-  def initialize(account_balance = Account_Balance.new, account_statement = Account_Statement.new)
+  def initialize(account_balance = Balance.new, account_statement = TransactionHistory.new)
     @account_balance = account_balance
     @account_statement = account_statement
   end

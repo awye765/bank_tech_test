@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alistairwye/Projects/bank_tech_test/lib/bank.rb": [
+      "/Users/alistairwye/Projects/bank_tech_test/lib/account.rb": [
         1,
         null,
         1,
@@ -27,7 +27,7 @@
         null,
         null
       ],
-      "/Users/alistairwye/Projects/bank_tech_test/lib/account_balance.rb": [
+      "/Users/alistairwye/Projects/bank_tech_test/lib/balance.rb": [
         1,
         null,
         1,
@@ -56,7 +56,7 @@
         null,
         null
       ],
-      "/Users/alistairwye/Projects/bank_tech_test/lib/account_statement.rb": [
+      "/Users/alistairwye/Projects/bank_tech_test/lib/transaction_history.rb": [
         1,
         null,
         1,
@@ -69,7 +69,7 @@
         1,
         null,
         null,
-        null,
+        1,
         null,
         null,
         null,
@@ -103,9 +103,11 @@
         null,
         null
       ],
-      "/Users/alistairwye/Projects/bank_tech_test/spec/account_statement_spec.rb": [
+      "/Users/alistairwye/Projects/bank_tech_test/spec/account_spec.rb": [
         1,
         null,
+        4,
+        4,
         2,
         null,
         1,
@@ -113,16 +115,38 @@
         1,
         1,
         null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
         null,
         null,
         null,
         null
       ],
-      "/Users/alistairwye/Projects/bank_tech_test/spec/bank_spec.rb": [
+      "/Users/alistairwye/Projects/bank_tech_test/spec/transaction_history_spec.rb": [
         1,
         null,
-        4,
-        4,
         2,
         null,
         1,
@@ -130,30 +154,6 @@
         1,
         1,
         null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
         null,
         null,
         null,
@@ -176,6 +176,6 @@
         null
       ]
     },
-    "timestamp": 1470837610
+    "timestamp": 1470846204
   }
 }

@@ -1,11 +1,11 @@
-describe Account_Balance do
+describe Balance do
 
-  subject(:account_balance) { Account_Balance.new }
+  subject(:balance) { Balance.new }
 
   describe "#show_balance" do
 
     it "has a starting balance of 0" do
-      expect(account_balance.show_balance).to eq 0
+      expect(balance.show_balance).to eq 0
     end
 
   end
@@ -13,13 +13,13 @@ describe Account_Balance do
   describe "#update_balance" do
 
     it "can increase the balance" do
-      account_balance.update_balance(1000)
-      expect(account_balance.show_balance).to eq 1000
+      balance.update_balance(1000)
+      expect(balance.show_balance).to eq 1000
     end
 
     it "can descrease the balance" do
-      account_balance.update_balance(-1000)
-      expect(account_balance.show_balance).to eq -1000
+      balance.update_balance(-1000)
+      expect(balance.show_balance).to eq -1000
     end
 
   end
