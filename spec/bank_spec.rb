@@ -12,6 +12,15 @@ describe Bank do
       expect(bank.show_balance).to eq 0
     end
 
+    it "can be increased by depositing money" do
+      expect{ bank.deposit(1) }.to change{ bank.balance }.by(1)
+    end
+
+    it "can be decreased by withdrawing money" do
+      bank.deposit(1)
+      expect{ bank.withdraw(1) }.to change{ bank.balance }.by(-1)
+    end
+
   end
 
 end
