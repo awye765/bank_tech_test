@@ -1,7 +1,8 @@
 class Bank
 
-  def initialize(account_balance = Account_Balance.new)
+  def initialize(account_balance = Account_Balance.new, account_statement = Account_Statement.new)
     @account_balance = account_balance
+    @account_statement = account_statement
   end
 
   def show_balance
@@ -14,6 +15,10 @@ class Bank
 
   def withdraw(amount)
     @account_balance.update_balance(-amount)
+  end
+
+  def print_statement
+    @account_statement.history
   end
 
 end

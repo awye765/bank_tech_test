@@ -6,6 +6,7 @@
         null,
         1,
         3,
+        3,
         null,
         null,
         1,
@@ -20,12 +21,14 @@
         1,
         null,
         null,
+        1,
+        0,
+        null,
+        null,
         null
       ],
       "/Users/alistairwye/Projects/bank_tech_test/lib/account_balance.rb": [
         1,
-        null,
-        null,
         null,
         1,
         3,
@@ -37,6 +40,17 @@
         null,
         1,
         3,
+        null,
+        null,
+        null
+      ],
+      "/Users/alistairwye/Projects/bank_tech_test/lib/account_statement.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        4,
         null,
         null,
         null
@@ -69,11 +83,27 @@
         null,
         null
       ],
+      "/Users/alistairwye/Projects/bank_tech_test/spec/account_statement_spec.rb": [
+        1,
+        null,
+        2,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/alistairwye/Projects/bank_tech_test/spec/bank_spec.rb": [
         1,
         null,
         4,
         4,
+        2,
         null,
         1,
         null,
@@ -95,6 +125,12 @@
         null,
         1,
         1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
         1,
         1,
         1,
@@ -104,6 +140,6 @@
         null
       ]
     },
-    "timestamp": 1470833047
+    "timestamp": 1470836040
   }
 }

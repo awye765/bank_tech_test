@@ -2,6 +2,7 @@ describe Bank do
 
   subject(:bank) { Bank.new(account_balance) }
   let(:account_balance) { double :account_balance, show_balance: 0 }
+  let(:account_statement) { double :account_statement, history: [] }
 
   describe "#show_balance" do
 
@@ -26,6 +27,12 @@ describe Bank do
       amount = 999
       expect(account_balance).to receive(:update_balance).with(-amount)
       bank.withdraw(amount)
+    end
+  end
+
+  describe "#print_statement" do
+    it "can print a statement of transactions" do
+      expect(account_statement.history).to be_empty
     end
   end
 
