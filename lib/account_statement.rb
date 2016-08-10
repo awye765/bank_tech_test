@@ -6,4 +6,12 @@ class Account_Statement
     @history = []
   end
 
+  def show_history
+    @history
+  end
+
+  # def update_history
+  #   # @history add some stuf
+  # end
+
 end

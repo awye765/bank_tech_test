@@ -44,6 +44,18 @@
         null,
         null
       ],
+      "/Users/alistairwye/Projects/bank_tech_test/lib/transaction.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        null
+      ],
       "/Users/alistairwye/Projects/bank_tech_test/lib/account_statement.rb": [
         1,
         null,
@@ -51,6 +63,14 @@
         null,
         1,
         4,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null
@@ -138,8 +158,24 @@
         null,
         null,
         null
+      ],
+      "/Users/alistairwye/Projects/bank_tech_test/spec/transaction_spec.rb": [
+        1,
+        null,
+        3,
+        3,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1470836040
+    "timestamp": 1470837610
   }
 }
