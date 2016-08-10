@@ -1,10 +1,11 @@
 describe Bank do
 
-  subject(:bank) { described_class.new }
+  subject(:bank) { Bank.new(account_balance) }
+  let(:account_balance) { double :account_balance, show_balance: 0 }
 
-  describe "#balance" do
+  describe "#show_balance" do
 
-    it "returns the balance of the account" do
+    it "returns the account balance" do
       expect(bank).to respond_to(:show_balance)
     end
 
@@ -12,15 +13,24 @@ describe Bank do
       expect(bank.show_balance).to eq 0
     end
 
+  end
+
+  describe "#deposit" do
+
     it "can be increased by depositing money" do
-      expect{ bank.deposit(1) }.to change{ bank.balance }.by(1)
+      amount = 999
+      expect(account_balance).to receive(:update_balance).with(amount)
+      bank.deposit(amount)
     end
 
+  end
+
+  describe "#withdraw" do
     it "can be decreased by withdrawing money" do
-      bank.deposit(1)
-      expect{ bank.withdraw(1) }.to change{ bank.balance }.by(-1)
+      amount = 999
+      expect(account_balance).to receive(:update_balance).with(-amount)
+      bank.withdraw(amount)
     end
-
   end
 
 end
